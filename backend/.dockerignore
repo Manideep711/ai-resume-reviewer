@@ -1,0 +1,10 @@
+# Deny by default: the build only needs Maven configuration and source files.
+*
+!pom.xml
+!src/
+!src/**
+src/**/.env*
+src/**/*.pem
+src/**/*.key
+src/**/credentials*.json
+src/**/service-account*.json
